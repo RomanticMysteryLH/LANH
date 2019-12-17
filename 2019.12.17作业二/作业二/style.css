@@ -1,0 +1,853 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box{
+    display: block;
+    width:1920px;
+    height:auto;
+    margin:0 auto;/*块元素居中*/
+    text-align: center;/*内联元素居中*/
+    
+}
+
+
+.nav{
+    background-color: white;
+    list-style-type: none;
+    left:0;
+    right:0;
+    top:0;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;/*加上以后才把navl和navr拉到两边*/
+    flex-wrap: nowrap;
+    align-items: center；/*使navl和navr位于导航栏中间*/
+}
+
+
+.navl{
+    justify-content: flex-start;
+    align-items: center;/*添加使框位于导航栏中间*/
+    display: flex;
+}
+.navr{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color:gray;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    line-height: 5px;
+}
+.nav a:hover{/*a和:hover之间不能也有空格*/
+    text-decoration: underline;
+}
+
+
+
+.box2{/*免费Visual Studio*/
+      border: 1px solid black;
+      width: fit-content;
+      border-radius: 5px;
+      display: inline-flex;/*加上后才显示在同一行*/
+      height: 40px;
+      align-items: center;/*添加使“免费VS”位于框的中间*/
+}
+.two1:hover .nav-two-content1{
+      display: flex;
+}
+.nav-two-content1{
+      display: none;
+      position: absolute;
+      top: 55px;
+      background-color: rgb(240, 240, 240);
+      width: 300px;
+      line-height: 50px;
+      flex-direction: row;
+      text-align: left;
+      padding: 20px;
+      
+}
+.nav-two-content1 a{
+    color: black;
+    
+}
+
+.nav-two-content-in{
+     flex-basis: 50%;
+}
+
+
+
+.two2:hover .nav-two-content2{
+    display: flex;
+}
+.nav-two-content2{
+    display: none;
+    position: absolute;
+    top: 55px;
+    background-color: rgb(240, 240, 240);
+    width: 250px;
+    line-height: 60px;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    
+}
+.nav-two-content2 a{
+  color: black;
+  
+}
+
+
+.two3:hover .nav-two-content3{
+    display: flex;
+}
+.nav-two-content3{
+    display: none;
+    position: absolute;
+    top: 55px;
+    background-color: rgb(240, 240, 240);
+    width: 200px;
+    line-height: 60px;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    
+}
+.nav-two-content3 a{
+  color: black;
+  
+}
+
+
+
+
+.two4:hover .nav-two-content4{
+    display: flex;
+}
+.nav-two-content4{
+    display: none;
+    position: absolute;
+    top: 55px;
+    background-color: rgb(240, 240, 240);
+    width: 1100px;
+    line-height: 30px;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    margin-left: -1000px;/*margin-left: 将对块进行相对位置调整；left:直接确定位置;*/
+}
+.nav-two-content4 a{
+    color: black;
+}
+.firstline{
+    display: inline-flex;
+    margin-bottom: 15px;
+    align-items: center;
+    
+}
+.firstline p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.middle-block{
+    display: flex;
+    flex-direction: row;
+}
+.middle-block-in{
+    flex-basis: 16%;
+    line-height: 50px;
+    margin:5px;
+}
+
+
+
+
+.box1{/*下载vs*/
+    display:inline-flex;
+    align-items: center;
+    border:1px solid gray ;
+    border-radius: 4px;
+    margin: 30px;
+    
+    text-align: center;
+    background-color: white;
+    
+    margin-left: 0;
+    flex-direction: column;
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: fit-content;
+    padding: 8px;/*把padding加到此才能使hover中的框框住padding*/
+}
+.box1 a{
+    border:solid white 1px;
+    
+}
+.box1 a:hover{
+    border: solid black 1px;
+    background-color: gainsboro;
+    
+}
+.two-content{
+    display: none;
+    position: absolute;
+    top:392px;
+    padding: 0px;
+    background-color: white;
+    flex-direction: row;
+    box-shadow: 0px 0px 5px 0px rgb(185, 185, 185);
+    flex-direction: column;
+    
+}
+
+.box1:hover .two-content{/*下拉菜单*/
+    display: flex;/*之前使用block，导致了a与p之间出现了换行，改为flex后再添加direction使之竖向排列
+    block元素前后会带有换行符*/
+    
+}
+
+.two-content a{
+    text-decoration: none;
+    color: black;
+    padding:12px;
+    width: 180px;/*设置使之宽度一致*/
+    margin:1px;
+    font-size: 19px;
+}
+
+
+
+
+
+
+.pup{
+    background-color: rgb(92,45, 145);
+    
+}
+
+.logo{
+    display:inline-flex;
+    align-items: center;
+    background-color: white;
+    width: fit-content;
+    margin: 30px;
+    padding: 8px;
+    border:1px solid gray ;
+    margin-right: 0;
+}
+
+.button1{
+    display: flex;/*使用才能使flex布局生效*/
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content:center;
+    margin:0 auto;/*针对块级元素的居中*/
+    
+}
+
+
+
+.onesecond{
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.left{
+    width: 50%;
+    margin: 0px;
+    text-align: left;
+    padding-left: 350px;
+}
+.left a{
+    text-decoration: none;
+    color: white;
+}
+.right{
+    width: 50%;
+    margin: 0px;
+    text-align: left;
+    padding-left: 80px;
+}
+.left a:hover{
+    position: relative;
+    right: 5px;
+    bottom:3px;    
+}
+
+.black{
+    background-color: rgb(10,10,10);
+    color:white;
+    display: flex;
+    line-height: 40px;
+    user-select: none;
+
+}
+
+.black a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.blackl{
+    width: 40%;
+    line-height: 60px;
+    padding-left: 300px;
+    padding-right: 20px;
+    text-align: left;
+    
+}
+.blackl p{
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+#p1 {
+    margin: 5px;/*载入时展示part1,p1的margin为5px*/
+}
+
+.blackr{
+    width:60%;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 300px;
+}
+#p1{
+    text-decoration: underline;
+}
+
+#part2{
+    display: none;
+}
+#part3{
+    display: none;
+}
+#part4{
+    display: none;
+}
+#part5{
+    display: none;
+}
+#part6{
+    display: none;
+}
+
+
+.transverse{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.transverse a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;/*将margin设置到a上，避免出现a的范围比box的边框大的情况（a会包住smallbox的margin）*/
+}
+.transverse h2{
+    margin:15px 5px 15px 5px;
+}
+.smallbox:hover{/*将效果设置在此，将a包住*/
+    box-shadow: 1px 2px 10px 0px rgb(194, 194, 194);/*横向距离 竖向距离 模糊距离 阴影尺寸*/
+    
+}
+
+
+
+.smallbox{/*Visual Studio工作负载中*/
+    width: 160px;
+    padding: 15px 10px;
+    height: 80px;
+    box-shadow: 1px 1px 5px 0px rgb(194, 194, 194);/*横向距离 竖向距离 模糊距离 阴影尺寸*/
+    border:solid 1px rgb(223, 223, 223);
+    text-decoration: none;
+    color: black;
+    margin: 20px;/*将margin设置到a上，避免出现a的范围比box的边框大的情况（a会包住smallbox的margin）*/
+    cursor: pointer;
+    user-select: none;
+}
+
+#a1{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+}
+#a1 a{
+    color: lightskyblue;
+}
+#a2{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+}
+#a2 a{
+    color: lightskyblue;
+}
+#a3{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 20px;
+    
+}
+#a3 a{
+    color: lightskyblue;
+}
+#a4{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#a4 a{
+    color: lightskyblue;
+}
+
+#b1{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#b1 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+#b2{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+    
+}
+#b2 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+#b3{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#b3 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+#c1{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#c1 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+#c2{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#c2 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+#c3{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#c3 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+#c4{
+    line-height: 28px;
+    background-color:#FAF9F8 ;
+    padding: 30px;
+    margin-left: 220px;
+    margin-right: 220px;
+    cursor: pointer;
+    display: none;
+    min-width: 780px;
+    margin-bottom: 20px;
+}
+#c4 a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.pink{
+    background-color:#F4EDFF;
+    
+    
+}
+
+
+.pinkin{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;    
+    margin-left: 300px;
+    margin-right: 300px;
+   
+}
+
+.onefourth{
+    text-align: left;
+    padding: 30px;
+    line-height: 30px;
+    flex-basis: 25%;/*设置四个项目占据相同的宽度*/
+    
+}
+
+.onefourth p{
+    font-size: 20px;
+}
+
+.onefourth a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    
+}
+.onefourth a:hover{
+    border-bottom: 2px solid black;
+}
+.view{
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+.roll{
+    display: flex;
+    flex-direction: row;
+    margin-left: -1600px;/*直接从-800开始，使左边重复部分被遮挡*/
+    user-select: none;
+}
+
+.roll a{
+    border:white solid 1px;
+    box-shadow: rgb(196, 196, 196) 0px 5px 5px 0px;
+    margin: 15px;
+    width: 200px;
+}
+.roll-box img{
+    width: 126px;
+    margin: 1px;
+}
+
+.roll a:hover{
+    border: 1px solid black;
+}
+
+#button-left{
+    font-size: 80px;
+    position: absolute;
+    margin-left: -100px;
+    color: gainsboro;
+    cursor: pointer;
+    margin-top: 30px;
+    user-select: none;/*不可被选中*/
+}
+#button-right{
+   
+    font-size: 80px;
+    position: absolute;
+    margin-left: 840px;
+    color: gainsboro;
+    cursor: pointer;
+    margin-top: 30px;
+    user-select: none;
+}
+
+.view2{
+    width: 1120px;
+    overflow: hidden;
+    margin: auto;
+}
+.roll2{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.roll2-box{
+    flex-direction: column;
+    width: 250px;
+    margin: 15px;
+}
+.roll2-box img{
+    width: 250px;
+}
+.roll2-box p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+#button-left2{
+    font-size: 50px;
+    position: absolute;
+    color: gray;
+    margin-left: -60px;
+    margin-top: 60px;
+    cursor: pointer;
+    width: fit-content;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;/*椭圆形*/
+    border: #FAF9F8 solid 1px;
+    line-height: 40px;/*多次调整使箭头居中*/
+    background-color: #FAF9F8;
+    user-select: none;
+}
+#button-left2:hover{
+
+    border: gray solid 1px;
+
+    background-color: gray;
+    color: #FAF9F8;
+}
+#button-right2{
+    font-size: 50px;
+    position: absolute;
+    color: gray;
+    margin-left: 1130px;
+    margin-top: 60px;
+    cursor: pointer;
+    width: fit-content;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;/*椭圆形*/
+    border: #FAF9F8 solid 1px;
+    line-height: 40px;/*多次调整使箭头居中*/
+    background-color: #FAF9F8;
+    user-select: none;
+}
+#button-right2:hover{
+    border: gray solid 1px;
+
+    background-color: gray;
+    color: #FAF9F8;
+}
+
+.roll3{
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.roll3-box{
+    flex-direction: column;
+    width: 250px;
+    margin: 15px;
+}
+.roll3-box img{
+    width: 250px;
+}
+.roll3-box p{
+    text-align: left;
+    margin-top: 20px;
+}
+
+#button-left3{
+    font-size: 50px;
+    position: absolute;
+    color: gray;
+    margin-left: -60px;
+    margin-top: 55px;
+    cursor: pointer;
+    width: fit-content;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;/*椭圆形*/
+    border: #FAF9F8 solid 1px;
+    line-height: 40px;/*多次调整使箭头居中*/
+    background-color: #FAF9F8;
+    user-select: none;
+}
+#button-left3:hover{
+    border: gray solid 1px;
+
+    background-color: gray;
+    color: #FAF9F8;
+}
+#button-right3{
+    font-size: 50px;
+    position: absolute;
+    color: gray;
+    margin-left: 1130px;
+    margin-top: 40px;
+    cursor: pointer;
+    width: fit-content;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;/*椭圆形*/
+    border: #FAF9F8 solid 1px;
+    line-height: 40px;/*多次调整使箭头居中*/
+    background-color: #FAF9F8;
+    user-select: none;
+}
+#button-right3:hover{
+    border: gray solid 1px;
+
+    background-color: gray;
+    color: #FAF9F8;
+}
+
+
+
+.grey{
+    background-color: #FAF9F8;
+
+}
+
+.darkpurple{
+    background-color: #32145A;
+    display: flex;
+    flex-direction: row;
+    color:white;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding:60px 300px 60px 300px;
+}
+
+.lightpurple{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+}
+.lightpurple a{
+    margin: 10px;
+}
+
+
+.onethird{
+    /*display: inline-flex;导致盒子内部元素无法居中*/
+    flex-basis: 33%;
+    font-size: 20px;
+    line-height: 30px;
+    
+    
+}
+.onethird a{
+    text-decoration: none;
+    color: white;
+}
+.onethird a:hover{
+    text-decoration: underline;
+}
+
+.lightpurple{
+    background-color: #5C2D91;
+    padding: 20px 300px 20px 300px;
+}
+
+.end{
+    background-color: #FAF9F8;
+    display: flex;
+    flex-direction: row;
+    padding:20px 100px 20px 100px;
+    text-align: left;
+}
+
+
+.onesixth{
+    flex-basis: 16.6%;
+    line-height: 35px;
+
+}
+.onesixth a{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+}
+
+.onesixth a:hover{
+    text-decoration: underline;
+}
+
