@@ -1,0 +1,1130 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#nav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.808);
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    z-index: 10000;
+
+}
+
+#nav-block0 {
+    list-style-type: none;
+    background-color: rgb(0, 156, 0);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+}
+
+#nav-block1 {
+    list-style-type: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+    box-sizing: border-box;
+    /*内边框*/
+    flex-direction: column;
+    user-select: none;
+
+}
+
+#nav-block2 {
+    list-style-type: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+    box-sizing: border-box;
+    /*内边框*/
+    flex-direction: column;
+    user-select: none;
+}
+
+#nav-block3 {
+    list-style-type: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+    box-sizing: border-box;
+    /*内边框*/
+    flex-direction: column;
+    user-select: none;
+}
+
+#nav-block4 {
+    list-style-type: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+    box-sizing: border-box;
+    /*内边框*/
+    flex-direction: column;
+    user-select: none;
+}
+
+#nav-block5 {
+    list-style-type: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+    box-sizing: border-box;
+    /*内边框*/
+    flex-direction: column;
+    user-select: none;
+}
+
+#nav-block6 {
+    list-style-type: none;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    color: rgb(107, 107, 107);
+    box-sizing: border-box;
+    /*内边框*/
+    flex-direction: column;
+    user-select: none;
+}
+
+#stretch2 {
+    position: fixed;
+    left: 0px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgba(255, 183, 49, 0.808);
+    opacity: 0;
+
+    z-index: 100;
+
+}
+
+#intro2 {
+    list-style-type: none;
+    margin-top: 180px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    /*内边框*/
+
+}
+
+#intro2 a {
+    line-height: 45px;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#stretch3 {
+    position: fixed;
+    left: 0px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgba(255, 128, 128, 0.808);
+    opacity: 0;
+
+    z-index: 100;
+}
+
+#intro3 {
+    list-style-type: none;
+    margin-top: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    /*内边框*/
+
+}
+
+#intro3 a {
+    line-height: 45px;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#stretch4 {
+    position: fixed;
+    left: 0px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgba(117, 181, 255, 0.808);
+
+    opacity: 0;
+
+    z-index: 100;
+
+}
+
+#intro4 {
+    list-style-type: none;
+    margin-top: 420px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    /*内边框*/
+}
+
+#intro4 a {
+    line-height: 45px;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#stretch5 {
+    position: fixed;
+    left: 0px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgba(0, 156, 0, 0.808);
+    opacity: 0;
+
+    z-index: 100;
+}
+
+#intro5 {
+    list-style-type: none;
+    margin-top: 540px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*垂直居中*/
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    /*内边框*/
+
+}
+
+#intro5 a {
+    line-height: 45px;
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#page1 {
+    overflow: hidden;
+    font-size: 0;
+    /*能去除图片间的空隙*/
+}
+
+#roll1 {
+    position: relative;
+
+}
+
+#buttons {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    /*width=246px*/
+
+
+}
+
+#buttons img {
+    margin: 0 10px;
+    user-select: none;
+}
+
+#QRcode1 {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+
+    margin-top: -10px;
+    width: 0;
+    border-radius: 6px;
+}
+
+
+.black-bar {
+    background-color: black;
+    opacity: 0.7;
+    min-height: 400px;
+    position: relative;
+    top: -400px;
+    width: 100%;
+    z-index: 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weiboweixin {
+    margin: 40px;
+    display: flex;
+    user-select: none;
+}
+
+.weiboweixin a {
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+
+.weiboweixin img {
+    margin: 0 30px;
+}
+
+.weibo {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    /*之前设置了font-size=0;*/
+    line-height: 30px;
+    text-decoration: none;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+
+
+}
+
+.weixin {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    /*之前设置了font-size=0;*/
+    line-height: 30px;
+    text-decoration: none;
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+
+}
+
+#bottom1 {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+#bottom1 a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+
+#page2 {
+    font-size: 0;
+    /* 一定要注意*/
+    overflow: hidden;
+}
+
+#page2-bottom-pic {
+    height: 400px;
+    position: absolute;
+    z-index: 0;
+}
+
+/*利用relative,图片自动保持不重叠，移动参数相同*/
+#picture2-1 {
+    position: relative;
+    /*relative时z-index生效，z-index只在定位元素上生效*/
+
+    z-index: 100;
+
+}
+
+#picture2-2 {
+    position: relative;
+
+    z-index: 100;
+}
+
+#picture2-3 {
+    position: relative;
+
+    z-index: 100;
+
+}
+
+#picture2-4 {
+    position: relative;
+
+    z-index: 100;
+}
+
+#pencils {
+    background-image: url(./image/page2_background.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 95px;
+
+
+
+}
+
+#pencil1 {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+#pencil1 div {
+    background-color: #F39E38;
+    position: relative;
+    min-height: 600%;
+    top: -35%;
+}
+
+#pencil1-block {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 7%;
+    left: 50%;
+    margin-left: -48px;
+    width: fit-content;
+    border: white solid 2px;
+    border-radius: 50px;
+    padding: 5px 10px;
+
+}
+
+#pencil2 {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+#pencil2 div {
+    background-color: #EB6B64;
+    position: relative;
+    min-height: 600%;
+    top: -35%;
+}
+
+#pencil2-block {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 7%;
+    left: 50%;
+    margin-left: -48px;
+    width: fit-content;
+    border: white solid 2px;
+    border-radius: 50px;
+    padding: 5px 10px;
+
+}
+
+#pencil3 {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+#pencil3 div {
+    background-color: #71BDE4;
+    position: relative;
+    min-height: 600%;
+    top: -35%;
+}
+
+#pencil3-block {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 7%;
+    left: 50%;
+    margin-left: -48px;
+    width: fit-content;
+    border: white solid 2px;
+    border-radius: 50px;
+    padding: 5px 10px;
+
+}
+
+#pencil4 {
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+#pencil4 div {
+    background-color: #81C043;
+    position: relative;
+    min-height: 600%;
+    top: -35%;
+}
+
+#pencil4-block {
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    top: 7%;
+    left: 50%;
+    margin-left: -48px;
+    width: fit-content;
+    border: white solid 2px;
+    border-radius: 50px;
+    padding: 5px 10px;
+
+}
+
+
+
+#QRcode2 {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+    margin-top: -10px;
+    width: 0;
+    border-radius: 6px;
+}
+
+#bottom2 {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -300px;
+    left: 20%;
+    right: 20%;
+    /*设置相同的left和right值使绝对定位元素居中*/
+
+}
+#bottom2 a{
+    text-decoration: none;
+    color: rgb(179, 179, 179);
+}
+
+
+#page3-in {
+    background: url(./image/page3-background.jpg);
+    background-size: 100% 100%;
+    /*外框是page3-in，所以设成100%就行；*/
+    display: flex;
+    flex-direction: row;
+}
+
+#page3window1 {
+    overflow: hidden;
+    box-shadow: 5px -10px 30px 0px;
+}
+
+#page3window2 {
+    overflow: hidden;
+    box-shadow: 5px -10px 30px 0px;
+}
+
+#page3-bottom-pic {
+    height: 400px;
+}
+
+
+#page3drop1 {
+    position: absolute;
+    bottom: 50px;
+    left: 20%;
+    opacity: 0.7;
+    height: 300px;
+    text-align: center;
+
+}
+
+#page3drop1 p {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -70px;
+    /*top和lmargin-left一起用，使元素居中，适用性好*/
+    text-align: center;
+    font-size: 28px;
+    color: white;
+
+}
+
+#p3-drop1-img {
+    height: 100%;
+
+}
+
+#page3drop1 li {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -49px;
+    /*top和lmargin-left一起用，使元素居中，适用性好*/
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    border: solid white 2px;
+    width: fit-content;
+    padding: 4px 15px;
+    border-radius: 50px;
+
+}
+
+
+#page3drop2 {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 200px;
+    opacity: 0.7;
+    height: 300px;
+}
+
+#page3drop2 p {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    margin-left: -56px;
+    /*top和lmargin-left一起用，使元素居中，适用性好*/
+    text-align: center;
+    font-size: 28px;
+    color: white;
+
+}
+
+#p3-drop2-img {
+    height: 100%;
+
+}
+
+#page3drop2 li {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -41px;
+    /*top和lmargin-left一起用，使元素居中，适用性好*/
+    font-size: 16px;
+    color: white;
+    list-style: none;
+    border: solid white 2px;
+    width: fit-content;
+    padding: 4px 15px;
+    border-radius: 50px;
+
+}
+
+#bottom3 {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -300px;
+    left: 20%;
+    right: 20%;
+    /*设置相同的left和right值使绝对定位元素居中*/
+}
+#bottom3 a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+#QRcode3 {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+    margin-top: -10px;
+    width: 0;
+    border-radius: 6px;
+}
+
+
+
+
+
+#page4-in {
+    /*只要父级元素设了position并且不是static（默认既是static），
+    那么设定了absolute的子元素即以此为包含块（最近的）。*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+#p4window1 {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 5px -10px 30px 0px;
+}
+
+#p4window2 {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 5px -10px 30px 0px;
+}
+
+#p4window3 {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 5px -10px 30px 0px;
+}
+
+#p4window4 {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 5px -10px 30px 0px;
+}
+
+#bottom4 {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -300px;
+    left: 20%;
+    right: 20%;
+    /*设置相同的left和right值使绝对定位元素居中*/
+}
+#bottom4 a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+#QRcode4 {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+
+    margin-top: -10px;
+    width: 0;
+
+    border-radius: 6px;
+}
+
+#page4-bottom-pic {
+    height: 400px;
+}
+
+#picture4-1-drop {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    margin-right: -177px;
+    /*只要父级元素设了position并且不是static（默认既是static），
+    那么设定了absolute的子元素即以此为包含块（最近的）。*/
+}
+
+#picture4-2-drop {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    margin-right: -177px;
+}
+
+#picture4-3-drop {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    margin-right: -177px;
+}
+
+#picture4-4-drop {
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    margin-right: -177px;
+}
+
+
+
+#pic5-1-block {
+    overflow: hidden;
+}
+
+#pic5-2-block {
+    overflow: hidden;
+}
+
+#page5-words-left {
+    position: absolute;
+    left: 140px;
+    bottom: 25%;
+}
+
+#page5-words-right {
+    position: absolute;
+    right: 100px;
+    top: 25%;
+}
+
+#page5drop1 {
+    position: absolute;
+    bottom: 50%;
+    /*通过控制bottom或是top能控制缩放方向*/
+    left: 20%;
+    opacity: 0.7;
+}
+
+#page5-drop-left {
+    height: 500px;
+}
+
+#page5-drop1-block {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    left: 50%;
+    width: fit-content;
+    padding: 5px 10px;
+    border: 2px white solid;
+    border-radius: 50px;
+    margin-left: -40px;
+    bottom: 100px;
+}
+
+#page5drop1 a {
+    text-decoration: none;
+}
+
+#page5-drop1-big {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 50%;
+    width: fit-content;
+    margin-left: -40px;
+    bottom: 120px;
+
+
+}
+
+
+#page5drop2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20%;
+    opacity: 0.7;
+
+}
+
+#page5-drop-right {
+    height: 300px;
+}
+
+#page5-drop2-block {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    left: 50%;
+    width: fit-content;
+    padding: 5px 10px;
+    border: 2px white solid;
+    border-radius: 50px;
+    margin-left: -40px;
+    bottom: 100px;
+}
+
+#page5drop2 a {
+    text-decoration: none;
+}
+
+#page5-drop2-big {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    left: 50%;
+    width: fit-content;
+    margin-left: -40px;
+    bottom: 120px;
+
+
+}
+
+
+
+#page5-bottom-pic {
+    height: 400px;
+}
+
+#bottom5 {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -300px;
+    left: 20%;
+    right: 20%;
+    /*设置相同的left和right值使绝对定位元素居中*/
+}
+#bottom5 a{
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+#QRcode5 {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+
+    margin-top: -10px;
+    width: 0;
+
+    border-radius: 6px;
+}
+
+
+
+#page6 {
+    background-color: #F8F7F3;
+}
+#zhaobiao {
+    position: relative;
+    text-align: center;
+    top: -130px;
+    
+}
+#zhaobiao-words{
+    margin-top: 20px;
+    width: 60px;
+}
+#zhaobiao-drop{
+    position: absolute;
+    left: 50%;
+    margin-left: -71px;
+    top: -40px;
+}
+#zhaobiao-drop-left{
+    position: absolute;
+    min-height: 150px;
+    background-color:#F8F7F3;
+    width: 50%;
+    top: -4px;
+    right:50%;
+    margin-right: 71px;
+}
+#zhaobiao-drop-right{
+    position: absolute;
+    min-height: 150px;
+    background-color:#F8F7F3;
+    width: 50%;
+    top: -4px;
+    left:50%;
+    margin-left: 71px;
+}
+
+.title {
+    line-height: 60px;
+    word-break: keep-all;
+    white-space: nowrap;   
+    overflow: hidden;
+}
+
+#page6-top{
+    position: relative;
+    
+}
+.zhaobiao-bar {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 600px 80px 250px;
+    line-height: 45px;
+    font-size: 13px;
+    position: relative;
+
+}
+
+.mainpart {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#elements {
+    width: 70%;
+    overflow: hidden;
+    /*不换行*/
+    word-break: keep-all;
+    white-space: nowrap;
+    position: relative;
+}
+
+#elements a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.time {
+    width: 30%;
+    /*不换行*/
+    word-break: keep-all;
+    white-space: nowrap;    
+    overflow: hidden;
+}
+
+#page6-bottom-pic {
+    height: 400px;
+}
+
+#bottom6-out {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /*设置相同的left和right值使绝对定位元素居中*/
+}
+#bottom6{
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(179, 179, 179);
+    justify-content: center;
+    /* 水平居中 */
+    align-items: center;
+    /*垂直居中*/
+    display: flex;
+    flex-direction: column;
+    background-image: url(./image/bottom\ picure.jpg);
+    background-size: 100% 400px;
+    min-height: 400px;
+}
+#bottom6 a {
+    text-decoration: none;
+    /*要用在a上*/
+    color: rgb(179, 179, 179);
+}
+
+#QRcode6 {
+    position: absolute;
+    margin-left: 150px;
+    background-color: white;
+    margin-top: -10px;
+    width: 0;
+    border-radius: 6px;
+}
+
+.mainpart {
+    position: relative;
+}
+
+.control-bar {
+    display: flex;
+    flex-direction: row;
+    bottom: 20%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.control-bar p {
+    margin: 5px 10px;
+    padding: 0px;
+    border-radius: 50%;
+    border: 1px black solid;
+    height: 20px;
+    width:20px;
+    text-align: center;
+    line-height: 20px;
+}
+.control-bar button {
+    margin: 8px 10px;
+    padding: 0px;
+    border-radius: 50%;
+    border: 1px black solid;
+    height: 20px;
+    width:20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
