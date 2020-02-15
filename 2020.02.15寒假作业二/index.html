@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link type="text/css" rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <div id="ui">
+        <p id="startTip">请选择难度开始游戏</p>
+        <p id="endTip">游戏失败,少侠请重新来过</p>
+        <p id="winTip">敲墙成功，得分：</p>
+        <div id="count">
+            <p>3</p>
+            <p>2</p>
+            <p>1</p>
+        </div>
+        <div id="blocks">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div id="board"></div>
+        <div id="ball"></div>
+    </div>
+    <div id="scoreBoard">
+        <p id="point">得分：0</p>
+        <p id="difficulty">难度:</p>
+        <p>按esc暂停</p>
+    </div>
+    <div id="buttons">
+        <button id='low'>低难度</button>
+        <button id="middle">中难度</button>
+        <button id="high">高难度</button>
+        <br />
+        <button id="restart">重新开始</button>
+    </div>
+    <img src="./image/wallKnocker2.4.png" id="title">
+    <div id="version">
+        <strong>版本更新</strong>
+        <p>//version 1.0 首个版本</p>
+        <p>//version 1.05 修改了界面颜色</p>
+        <p>//version 1.1 加入版本号,加入了游戏名称：‘敲墙师傅’；修改了死亡后点击任意难度能复活的bug；增加了按钮、box的阴影;更改了砖块厚度</p>
+        <p>//version 2.0 增加了挡板的上下移动，修复了挡板移动中反弹小球判断不成功的问题；增加开始游戏提示；更新了难度名称</p>
+        <p>//version 2.1 增加了游戏开始延迟和倒计时功能;增加了挡板的阴影</p>
+        <p>//version 2.2 添加了bgm，提升了挡板的移动速度，删除了暂停功能</p>
+        <p>//version 2.3 通过弹窗实现暂停功能</p>
+        <p>//version 2.4 载入时根据窗口大小调整缩放</p>
+    </div>
+    <audio controls="controls" autoplay="autoplay" loop='loop' id="audioPlayer">
+        <source src="./bgm/清子 - 船舶.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="win">
+        <source src="./bgm/林坤信 - 乐逍遥.mp3" type='audio/mpeg'>
+    </audio>
+    <audio id="lose">
+        <source src="./bgm/林坤信 - 来世再续未了缘.mp3" type='audio/mpeg'>
+    </audio>
+</body>
+</html>

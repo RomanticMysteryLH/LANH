@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#ui{
+    border:2px solid rgb(134,150,116);
+    border-bottom:3px dotted rgb(204, 195, 190) ;
+    margin: 0 auto;
+    width: 1040px;
+    height: 600px;
+    position: relative;
+    background-color: rgb(236,207,212);
+    box-shadow: gainsboro 5px 5px 5px 0px;
+}
+#blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#blocks div{
+    background-color: rgb(109, 81, 82);
+    border: 1px solid black;
+    width: 130px;
+    height: 25px;
+    margin: -1px;/*使边框重合*/
+    
+}
+#board{
+    background-color: rgb(157,169, 185);
+    width: 80px;
+    height: 4px;
+    border: 1px solid black;
+    border-radius: 20%;
+    position: absolute;
+    bottom: 10px;
+    left: 480px;
+    box-shadow: gray 5px 5px 5px 0px;
+}
+#ball{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    bottom: 50%;
+    left: 516px;
+    border: 1px solid black;
+    background-color: rgb(240,235, 232);
+    border-radius: 50%;
+}
+#scoreBoard{
+    width: 180px;
+    height: 100px;
+    background-color: rgb(157,169,185);
+    border: 1px solid black;
+    position: absolute;
+    left: 15%;
+    top: 650px;
+    color: rgb(251, 232, 215);
+    border-radius: 5px;
+    box-shadow: gainsboro 5px 5px 5px 0px;
+}
+#scoreBoard p{
+    margin: 10px;
+
+}
+#buttons{
+    position: absolute;
+    left: 50%;
+    top: 650px;
+    margin-left: -98px;
+    
+}
+#buttons button{
+    padding: 4px;
+    margin: 5px;
+    border-radius: 6px;
+    color: gray;
+    cursor: pointer;
+    box-shadow: gainsboro 5px 5px 5px 0px;
+    user-select: none;
+}
+#restart{
+    position: relative;
+    padding: 5px;
+    top: 6px;
+    left: 60px;
+    background-color: rgb(230, 168, 168);
+    border-radius: 8px;
+}
+#low{
+    background-color: rgb(232,225,151);
+}
+#middle{
+    background-color: rgb(151,163,141);
+}
+#high{
+    background-color: rgb(138, 169, 199);
+}
+
+#title{
+    position: absolute;
+    width: 200px;
+    left: 75%;
+    cursor: pointer;
+}
+#title:hover +#version{
+    display: block;
+}
+#version:hover{
+    display: block;
+}
+#version{
+    position: absolute;
+    border:1px black solid;
+    width: 380px;
+    top: 680px;
+    left: 65%;
+    font-size: 12px;
+    padding: 5px;
+    background-color: white;
+    display: none;
+}
+#startTip{
+    position: absolute;;
+    top: 300px;
+    left: 50%;
+    color: gray;
+    border: gray 1px solid;
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: -77px;
+    user-select: none;
+}
+#count p{
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    top: 300px;
+    margin-left: -15px;
+    color: white;
+    display: none;
+}
+#endTip{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    color: gray;
+    border: gray 1px solid;
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: -90px;
+    user-select: none;
+    display: none;
+    color: indianred;
+}
+#winTip{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    color: gray;
+    border: gray 1px solid;
+    background-color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: -77px;
+    user-select: none;
+    color: lightblue;
+    display: none;
+}
+#audioPlayer{
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 750px;
+}
